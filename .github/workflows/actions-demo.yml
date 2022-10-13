@@ -4,6 +4,7 @@ on:
    branches: [master]
 jobs:
    build:
+     dotc-image-data:
      runs-on: ubuntu-latest
      steps:
        - name: checkout this repo
