@@ -3,7 +3,6 @@ on:
  push:
    branches: [master]
 jobs:
-  dotc-image:
    build:
      name: Greeting
      runs-on: ubuntu-latest
