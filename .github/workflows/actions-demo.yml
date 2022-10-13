@@ -7,5 +7,6 @@ jobs:
      name: Greeting
      runs-on: ubuntu-latest
      steps:
+       - name: checkout this repo
        - uses: actions/checkout@v2
        - name: Run a multiple scripts
