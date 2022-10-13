@@ -4,7 +4,7 @@ on:
    branches: [master]
 jobs:
    build:
-     name: Greeting
+     - name: Greeting
      runs-on: ubuntu-latest
      steps:
        - name: checkout this repo
